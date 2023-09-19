@@ -95,6 +95,8 @@ function AMBCalculator() {
         </div>
       </div>
       <br />
+      <div id="summary">
+      <div>
       <h2>Total Closing Balance=</h2>
       <h2 id="totalClosingBalance">{totalClosingBalance}</h2>
       <div></div>
@@ -105,6 +107,8 @@ function AMBCalculator() {
       <h2 id="isAverageMonthlyBalanceMaintained">
         {isAverageMonthlyBalanceMaintained}
       </h2>
+        </div>
+        </div>
     </div>
   );
 }
