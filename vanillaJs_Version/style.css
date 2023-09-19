@@ -20,7 +20,12 @@ textarea {
   justify-content: center;
 }
 
+#summary,
 #calanderContainer {
   display: flex;
   justify-content: center;
+}
+
+#summary {
+  padding-left: 2em;
 }
